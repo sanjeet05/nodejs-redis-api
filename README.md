@@ -2,8 +2,23 @@
 
 A nodejs redis rest api app
 
-### Install the app dependency ###
-```
-npm install
+### Version
+1.0.0
+
+## Usage
+
+Make sure you have Redis installed and running
+
+Install Dependencies
 
 ```
+$ npm install
+```
+
+Run Server
+
+```
+$ npm start
+```
+
+Visit http://localhost:3000
