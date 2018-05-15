@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-redis-api-app",
+  "version": "1.0.0",
+  "description": "A Nodejs Redis rest app",
+  "license": "MIT",
+  "homepage": "https://github.com/sanjeet05/nodejs-redis-api.git#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjeet05/nodejs-redis-api.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "nodejs",
+    "redis",
+    "rest",
+    "api"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "redis": "^2.8.0"
+  }
+}
